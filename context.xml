@@ -1,0 +1,12 @@
+<Context>
+  <Resource name="jdbc/BenchmarkDB"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="org.hsqldb.jdbcDriver"
+            url="jdbc:hsqldb:mem:BenchmarkDB;shutdown=true"
+            username="sa"
+            password=""
+            maxActive="20"
+            maxIdle="10"
+            maxWait="-1"/>
+</Context>
